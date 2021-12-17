@@ -1,11 +1,11 @@
-
 <!DOCTYPE html>
+{% load static %}
+
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Строительные работы</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    {% load static %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="{% static 'main/css/index.css' %}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 </head>
@@ -23,9 +23,36 @@
                 </ul>
             </nav>
             <div class="space"></div>
-            <div class="number-wrap"><a class="number--black" href="tel:+380665222451">+38 (066) 5 222 451</a></div>
+            <div class="number-wrap"><a class="number number--black" href="tel:+380665222451">+38 (066) 5 222 451</a></div>
         </div>
     </header>
+
+    <section class="section">
+
+        <article class="article-img">
+            <div class="wrap article-img__text-wrap">
+                <h1 class="article-img__title">Звоните</h1>
+                <p class="article-img__title-sub">Спроектируем, построим</p>
+                <a class="number number--yellow number--big" href="tel:+380665222451">+38 (066) 5 222 451</a>
+            </div>
+        </article>
+
+        <article class="article article-services">
+            <div class="wrap article-services">
+                <h2 class="article__title article-services__title">Наши услуги</h2>
+
+                <div class="card">
+                    <div class="card-img__wrap">
+                        <img src="https://static.wixstatic.com/media/a38016_6a5a1bff2b7745818c6b2661f05261d9.png/v1/fill/w_132,h_212,al_c,q_85,usm_0.66_1.00_0.01/a38016_6a5a1bff2b7745818c6b2661f05261d9.webp" alt="" style="width:66px;height:106px;object-fit:cover;object-position:50% 50%">
+                    </div>
+                    <h3 class="card-img__title">Кровельщики</h3>
+
+                </div>
+
+            </div>
+        </article>
+
+    </section>
 </main>
 </body>
 </html>
