@@ -63,7 +63,7 @@ img {
     align-items: center;
 }
 
-.header .logo {
+ .logo {
     color: #1a1a1a;
     font-family: "Raleway-Bold", sans-serif;
     font-size: 22px;
@@ -180,7 +180,7 @@ img {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: -40px;
+    margin-top: -50px;
 }
 
 .card {
@@ -190,7 +190,7 @@ img {
     align-items: center;
     color: #ffffff;
     width: 300px;
-    margin-top: 40px;
+    margin-top: 50px;
     padding: 10px;
 }
 .card__img-wrap {
@@ -206,14 +206,14 @@ img {
     max-height: 120px;
 }
 .card__title {
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 24px;
     /*width: 100%;*/
 }
 
 .card__text {
     font-size: 16px;
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: justify;
 }
 
@@ -222,4 +222,12 @@ img {
     background-size: cover;
 }
 .article-about__text {
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
