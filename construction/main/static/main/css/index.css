@@ -33,7 +33,13 @@ body {
     background: #ffffff;
     color: #1a1a1a;
     font-size: 16px;
+    line-height: 1.4;
     font-family: "Raleway-Regular", sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .wrap {
@@ -45,10 +51,10 @@ body {
 
 .header {
     background: #FFDE0E;
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
+    /*position: fixed;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    /*right: 0;*/
 }
 
 .header .wrap {
@@ -109,6 +115,7 @@ body {
     background: #6C6C6E url("../img/bg_worker.webp") center;
     background-size: cover;
     height: 75vh;
+    min-height: 320px;
 }
 
 .article-img__text-wrap {
@@ -149,3 +156,43 @@ body {
     color: #ffffff;
 }
 
+.article-services__wrap-cart {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: -40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    width: 300px;
+    margin-top: 40px;
+    padding: 10px;
+}
+.card__img-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    width: 150px;
+    height: 150px;
+}
+.card__img {
+    max-height: 120px;
+}
+.card__title {
+    margin-top: 10px;
+    font-size: 24px;
+    /*width: 100%;*/
+}
+
+.card__text {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: justify;
+}
